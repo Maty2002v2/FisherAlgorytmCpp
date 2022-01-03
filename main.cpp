@@ -7,15 +7,17 @@ using namespace std;
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 /*
-1 wie�a
-2 ko�
+1 wie¿a
+2 koñ
 3 goniec
-4 kr�l
+4 król
 5 dama
 
 parzyste pola czarne
-nieparzyste bai�e
+nieparzyste bai³e
 */
+
+//Dodać stałe opisujące wartość figur
 class FischerChessboard {
 	private:
 		vector<int>chessboard;
